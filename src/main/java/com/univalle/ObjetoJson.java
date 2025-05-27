@@ -11,7 +11,7 @@ public class ObjetoJson {
     private String id;
 
     @JsonProperty("type")
-    @JsonAlias("tipo") // <- acepta tanto "tipo" como "type"
+    @JsonAlias("tipo")
     private String tipo;
 
     @JsonProperty("text")
