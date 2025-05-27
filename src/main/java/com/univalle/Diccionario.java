@@ -25,6 +25,7 @@ public class Diccionario {
         diccionario.put("Solicita al usuario que describa brevemente los detalles de la demanda.", "Request the user to briefly describe the details of the claim.");
         diccionario.put("Finaliza la conversación de manera amable e informa al usuario que puede descargar un borrador de la demanda utilizando el botón ubicado en la parte inferior derecha, o bien acceder al formulario a través del botón continuo.", "Kindly end the conversation and inform the user that they can download a draft of the claim using the button at the bottom right or access the form through the continue button.");
         diccionario.put("El usuario responde: No.", "The user responds: No.");
+        diccionario.put("Expica al usuario que el caso probablemente la entidad no la acepte al no estar en concordancia con CUPS del Anexo 2 de la Resolución 2718 de 2024. Indicale que puede obtener más informacion en: [Supersalud](https://www.supersalud.gov.co/es-co/Paginas/Home.aspx) y finaliza amablemente la converzacion.", "Explain to the user that the entity will probably not accept the case because it is not in accordance with CUPS of Annex 2 of Resolution 2718 of 2024. Tell them that they can obtain more information at: [Supersalud](https://www.supersalud.gov.co/es-co/Paginas/Home.aspx) and politely end the conversation.");
         return diccionario;
     }
 }
