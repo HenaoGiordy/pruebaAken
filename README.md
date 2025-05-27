@@ -15,8 +15,7 @@ Creé un diccionario para ir guardando cada una de las traducciones y así fuera
 
 - Carga un archivo `Prueba_Junior.json` con estructura compleja.
 - Genera un **diccionario de traducción** para claves y valores.
-- Utiliza LibreTranslate para traducir automáticamente los campos `texto`, `tipo`, `actor`, `equipo` y `herramienta`.
-- Reasigna los campos a sus versiones en inglés: `type`, `text`, `actor`, `team`, `tool`.
+- Reasigna los campos a sus versiones en inglés: `type`, `text`, `actor`, `team`, `tool` con el @JsonProperty.
 - Reemplaza los `id` por nuevos UUIDs únicos, preservando referencias cruzadas.
 - Exporta el archivo traducido como `output.json`.
 
