@@ -7,7 +7,7 @@ Creé un diccionario para ir guardando cada una de las traducciones y así fuera
 ## 📦 Tecnologías usadas
 
 - ☕ Java 17+
-- 🧰 [Jackson](https://github.com/FasterXML/jackson) para manejo de JSON
+- 🧰 [Jackson] para manejo de JSON
 
 ---
 
@@ -25,10 +25,11 @@ Creé un diccionario para ir guardando cada una de las traducciones y así fuera
 ## 📁 Estructura del proyecto
 
 ```bash
-├── src/
-│   ├── com/univalle/
-│   │   ├── Main.java           # Clase principal que carga, traduce y guarda el JSON
-│   │   ├── ObjetoJson.java     # Clase de modelo con mapeo de claves en español/inglés
-│   │   └── Traductor.java      # Cliente HTTP que se conecta a LibreTranslate
-├── Prueba_Junior.json          # Archivo de entrada original
-├── output.json                 # Archivo de salida traducido
+src/
+└── com/univalle/
+    ├── Main.java         # Punto de entrada, orquesta el procesamiento
+    ├── ObjetoJson.java   # Modelo con mapeo de claves JSON
+    ├── Traductor.java    # Utiliza el diccionario para traducir
+    └── Diccionario.java  # Diccionario estático con traducciones clave→valor
+resources/
+    └── Prueba_Junior.json # Archivo JSON original
